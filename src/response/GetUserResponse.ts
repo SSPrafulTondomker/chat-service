@@ -1,6 +1,4 @@
-import { OperationType } from "../enumerations/OperationType";
-
-class GetTransactionResponse {
+class GetUserResponse {
     private _id: string;
     private _walletId: string;
     private _amount: number;
@@ -33,25 +31,4 @@ class GetTransactionResponse {
     }
 }
 
-export default GetTransactionResponse;
-
-
-/**
- * {
-id,
-walletId:
-string,
-amount:
-number,
-balance:
-number,
-description:
-string, date:
-<JS Date
-obj>, type:
-‘CREDIT’/’DE
-BIT’
-
-}
- * 
- */
+export default GetUserResponse;

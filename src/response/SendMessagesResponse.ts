@@ -1,4 +1,4 @@
-class SetUpWalletResponse {
+class SendMessagesResponse {
     private _id: string;
     private _transactionId: string;
     private _name: string;
@@ -24,14 +24,4 @@ class SetUpWalletResponse {
     }
 }
 
-export default SetUpWalletResponse;
-
-/***
- * 
- * { id, balance,
-transactionId:
-‘4349349843’, name:
-‘Hello world’,
-
-date: <JS Date obj>}
- */
+export default SendMessagesResponse;

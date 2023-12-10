@@ -1,4 +1,4 @@
-class WalletResponse {
+class GetUnReadMesagesResponse {
     private _id: string;
     private _balance: number;
     private _name: string;
@@ -21,17 +21,4 @@ class WalletResponse {
     }
 }
 
-export default WalletResponse;
-
-
-/**
- * {
-id,
-balan
-ce,
-name
-, date
-
-}
- * 
-*/
+export default GetUnReadMesagesResponse;

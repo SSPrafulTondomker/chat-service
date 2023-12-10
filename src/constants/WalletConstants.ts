@@ -1,4 +1,0 @@
-export default {
-    DECIMAL_CONSTANT: 10000,
-    INITIAL_TRANSACTION: "SETUP"
-}

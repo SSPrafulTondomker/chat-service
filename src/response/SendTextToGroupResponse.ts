@@ -1,4 +1,4 @@
-class TransferBalance {
+class SendTextToGroupResponse {
     private _transactionId: string;
     private _balance: number;
 
@@ -15,12 +15,4 @@ class TransferBalance {
     }
 }
 
-export default TransferBalance;
-
-
-/**
- * { balance: 30,
-transactionId:
-‘8328832323’ }
- * 
-*/
+export default SendTextToGroupResponse;
